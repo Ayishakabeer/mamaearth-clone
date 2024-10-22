@@ -1,0 +1,1462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mamaearth Clone</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.0/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+        <!-- Primary Navbar -->
+        <header class="shadow-sm">
+         <div class="mamaearthNavbar"> 
+          <nav class="navbar navbar-expand-lg navbar-light bg-white py-2">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img class="mx-24" src="https://miro.medium.com/v2/resize:fit:1400/0*UwLrJr_aQ9tI0PC-.png"  alt="Mamaearth Logo" height="100px" width="150px">
+              </a>&nbsp;&nbsp;&nbsp;
+
+              <!-- Search Bar -->
+              <div class="search d-flex mb-2">
+                <input class="searchbar form-control" type="search" placeholder="Search for Ubtan" aria-label="Search">
+                <button class="searchbutton btn btn-primary" type="submit">
+                    <i class="fas fa-search"></i> Search
+                </button>
+                <img class="ms-4" src="https://images.mamaearth.in/svg/gi-home-button.svg" width="150px" height="20px" alt="">
+                <a href="#" class="ms-4 mt-2">
+                    <i class="fa-solid fa-cart-shopping fa-lg" style="color: #0d63f8;"></i> Cart
+                </a>
+                <a href="#" class="ms-5 mt-2">
+                    <i class="fa-solid fa-user fa-lg" style="color: #0d63f8;"></i> Login
+                </a>
+              </div>
+            
+              
+
+              <!-- Offer button and Cart/Login -->
+              <div class="">
+              </div>
+            </div>
+          </nav>
+
+          <!-- Secondary Navbar (Links) -->
+          <hr>
+          <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-secondary">
+            <div class="container-fluid justify-content-evenly bg-white">
+              <ul class="navb navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Face</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Hair</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Makeup</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Body</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Baby</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Combos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">New Launches</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">All Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Plant Goodness</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Store Locator</a></li>
+              </ul>
+            </div>
+          </nav>
+          </div>
+        </header>
+        <!-- advertisement -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://st-images.honasa.in/Desktop_WCTA_PERFUME_90679b804d.jpg?format=auto&width=&qualilty=" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://st-images.honasa.in/Desktop_43ce0393f1.jpg?format=auto&width=&qualilty=" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://st-images.honasa.in/web_ww_f18cc8660a.jpg?format=auto&width=&qualilty=" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://st-images.honasa.in/website_FLAT_40_9786dd876f.jpg?format=auto&width=&qualilty=" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://st-images.honasa.in/website_FLAT_40_9786dd876f.jpg?format=auto&width=&qualilty=" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+       <!-- products -->
+         <div >
+          <div class="container mx-auto">
+            <div class="row">
+              <div class="col-9">
+                <h2 class="text-2xl font-semibold text-left mt-5 mb-2 ">Best Sellers</h2>
+                <p class=" text-lg">Explore best-selling safe, natural, and 100% toxin-free baby and beauty products from Mamaearth. Get amazing deals and start your toxin-free skin, hair, and baby care journey.</p>
+
+              </div>
+              <div class="col-3 mt-12">
+              <button class="viewall text-lg text-white ml-24">View All</button>
+              </div>
+            </div>
+          </div> 
+           <!--products session1-->
+          <div class="container mt-4">            
+            <div id="productCarousel" class="carousel slide" >
+              <div class="carousel-inner">
+                <!-- Carousel Slide 1 -->
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 1 -->
+                          <div class="col-md-3 mb-4">
+                            <div class="product-card">
+                              <div class="product-badge">Best Seller</div>
+                              <img src="https://images.mamaearth.in/catalog/product/v/i/vitamin-c-glow-serum_1.jpg?format=auto&width=400&height=400" alt="Product Image 1">
+                              <div class="product-title">Glow Face Serum With Vitamin C & Turmeric Radiant Skin - 30 ml</div>
+                              <div class="product-description">Gently Cleanses Skin | Hydrates Skin</div>
+                              <div class="rating">
+                                <span>⭐ 4.3</span> | 101 Reviews
+                              </div>
+                              <div class="price-section">
+                                <span class="price">₹339</span> <span class="original-price">₹399</span>
+                                <span class="discount">15% off</span>
+                              </div>
+                            </div>
+                            <button class="btn-add-to-cart">ADD TO CART</button>
+
+                          </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 2 -->
+                        <div class="col-md-3 mb-4">
+                          <div class="product-card">
+                            <div class="product-badge">Best Seller</div>
+                            <img src="https://images.mamaearth.in/catalog/product/r/i/rice-fw-1.jpg?format=auto&width=400&height=400" alt="Product Image 2">
+                            <div class="product-title">Rice Face Wash With Rice Water & Niacinamide for Glass Skin - 100 ml</div>
+                            <div class="product-description">Gently Cleanses Skin | Hydrates Skin</div>
+                            <div class="rating">
+                              <span>⭐ 4.8</span> | 324 Reviews
+                            </div>
+                            <div class="price-section">
+                              <span class="price">₹235</span> <span class="original-price">₹269</span>
+                              <span class="discount">13% off</span>
+                            </div>
+                          </div>
+                          <button class="btn-add-to-cart">ADD TO CART</button>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 3 -->
+                        <div class="col-md-3 mb-4">
+                          <div class="product-card">
+                            <div class="product-badge">Best Seller</div>
+                            <img src="https://images.mamaearth.in/catalog/product/u/b/ubtan-face-wash_1_1_2.jpeg?format=auto&width=400&height=400" alt="Product Image 3">
+                            <div class="product-title">Ubtan Face Wash with Turmeric & Saffron for Tan Removal – 150 ml</div>
+                            <div class="product-description">Gently Cleanses Skin | Hydrates Skin</div>
+                            <div class="rating">
+                              <span>⭐ 4.3</span> | 33 Reviews
+                            </div>
+                            <div class="price-section">
+                              <span class="price">₹599</span> <span class="original-price">₹799</span>
+                              <span class="discount">25% off</span>
+                            </div>
+                          </div>
+                          <button class="btn-add-to-cart">ADD TO CART</button>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 4 -->
+                          <div class="col-md-3 mb-4">
+                            <div class="product-card">
+                              <div class="product-badge">Best Seller</div>
+                              <img src="https://images.mamaearth.in/catalog/product/m/u/multani_mitti_face_wash_1.jpg?format=auto&width=400&height=400" alt="Product Image 4">
+                              <div class="product-title ">Face Wash with Multani Mitti & Bulgarian Rose For Oil Control - 100 ml</div>
+                              <div class="product-description">Salon-Like Glow in 6 Steps | Improves Skin</div>
+                              <div class="rating">
+                                <span>⭐ 5.0</span> | 92 Reviews
+                              </div>
+                              <div class="price-section">
+                                <span class="price">₹346</span> <span class="original-price">₹399</span>
+                                <span class="discount">13% off</span>
+                              </div>
+                            </div>
+                              <button class="btn-add-to-cart">ADD TO CART</button>
+
+                          </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <!-- Carousel Slide 2 -->
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 1 -->
+                          <div class="col-md-3 mb-4">
+                            <div class="product-card">
+                              <div class="product-badge-limited">Limited Offer</div>
+                              <img src="https://images.mamaearth.in/catalog/product/1/_/1_white_bg_50.jpg?format=auto&width=400&height=400" alt="Product Image 1">
+                              <div class="product-title">Mamaearth Into the Waves Eau De Parfum For Men - 100 ml</div>
+                              <div class="product-description">Premium | Long-Lasting Fragrance</div>
+                              <div class="rating">
+                                <span>⭐ 4.3</span> | 101 Reviews
+                              </div>
+                              <div class="price-section">
+                                <span class="price">₹746.00</span> <span class="original-price">₹999</span>
+                                <span class="discount">15% off</span>
+                              </div>
+                            </div>
+                            <button class="btn-add-to-cart">ADD TO CART</button>
+
+                          </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 2 -->
+                        <div class="col-md-3 mb-4">
+                          <div class="product-card">
+                            <div class="product-badge">Best Seller</div>
+                            <img src="https://images.mamaearth.in/catalog/product/v/i/vit-c-face-wash-with-ingredient.jpg?format=auto&width=400&height=400" alt="Product Image 2">
+                            <div class="product-title">Face Wash with Vitamin C and Turmeric for Skin Illumination - 100ml</div>
+                            <div class="product-description">Brightens Skin | Evens Skin Tone| Makes Skin Glow</div>
+                            <div class="rating">
+                              <span>⭐ 4.8</span> | 324 Reviews
+                            </div>
+                            <div class="price-section">
+                              <span class="price">₹235.00	</span> <span class="original-price">₹269</span>
+                              <span class="discount">13% off</span>
+                            </div>
+                          </div>
+                          <button class="btn-add-to-cart">ADD TO CART</button>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 3 -->
+                        <div class="col-md-3 mb-4">
+                          <div class="product-card">
+                              <div class="product-badge">Best Seller</div>
+                            <img src="https://images.mamaearth.in/catalog/product/v/i/vit_c_glow_sunscreen1_white_bg_1.jpg?format=auto&width=400&height=400" alt="Product Image 3">
+                            <div class="product-title">Sunscreen with Vitamin C & Turmeric for Sun Protection & Glow - 50 g</div>
+                            <div class="product-description"> Protection | Adds Natural Glow | Moisturizes Skin</div>
+                            <div class="rating">
+                              <span>⭐ 4.3</span> | 33 Reviews
+                            </div>
+                            <div class="price-section">
+                              <span class="price">₹306.00	</span> <span class="original-price">₹399</span>
+                              <span class="discount">25% off</span>
+                            </div>
+                          </div>
+                          <button class="btn-add-to-cart">ADD TO CART</button>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 4 -->
+                          <div class="col-md-3 mb-4">
+                            <div class="product-card">
+                              <div class="product-badge">Best Seller</div>
+                              <img src="https://images.mamaearth.in/catalog/product/v/i/vit-c-glow-cream1.jpg?format=auto&width=400&height=400" alt="Product Image 4">
+                              <div class="product-title">Glow Face Cream With Vitamin C & Turmeric for Skin Illumination - 80 g</div>
+                              <div class="product-description">Brightens Skin | Moisturizes Skin</div>
+                              <div class="rating">
+                                <span>⭐ 5.0</span> | 92 Reviews
+                              </div>
+                              <div class="price-section">
+                                <span class="price">₹218.00	</span> <span class="original-price">₹349</span>
+                                <span class="discount">13% off</span>
+                              </div>
+                            </div>
+                              <button class="btn-add-to-cart">ADD TO CART</button>
+
+                          </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <!-- Carousel Controls -->
+              <button class="carousel-control-prev mr-96" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next ml-96" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <!-- product session2 -->
+
+          <div class="container mx-auto">
+            <div class="row">
+              <div class="col-9">
+                <h2 class="text-2xl font-semibold text-left mt-5 mb-2 ">Lightning sale</h2>
+                <p class=" text-lg">Explore the goodness of nature from Mamaearth. Take a look at our lightning offers</p>
+
+              </div>
+              <div class="col-3 mt-12">
+              <button class="viewall text-lg text-white ml-24">View All</button>
+              </div>
+            </div>
+          </div>
+
+              <div class="container mt-4">            
+                <div id="productCarousel2" class="carousel slide" >
+                  <div class="carousel-inner">
+                    <!-- Carousel Slide 1 -->
+                    <div class="carousel-item active">
+                      <div class="row">
+                        <div class="col-md-3 mb-4">
+                          <!-- Product Card 1 -->
+                              <div class="col-md-3 mb-4">
+                                <div class="product-card">
+                                  <div class="product-badge-limited">⚡6h 36m 36s</div>
+                                  <img src="https://images.mamaearth.in/catalog/product/w/i/with-ingredients_2.jpg?format=auto&width=400&height=400" alt="Product Image 1">
+                                  <div class="product-title">Onion Shampoo for Hair Growth and Hair Fall Control - 1 L</div>
+                                  <div class="product-description">Gently Cleanses Skin | Hydrates Skin</div>
+                                  <div class="rating">
+                                    <span>⭐ 4.3</span> | 101 Reviews
+                                  </div>
+                                  <div class="price-section">
+                                    <span class="price"> ₹649.00	</span> <span class="original-price">₹1299</span>
+                                    <span class="discount">50% off</span>
+                                  </div>
+                                </div>
+                                <button class="btn-add-to-cart">ADD TO CART</button>
+
+                              </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                          <!-- Product Card 2 -->
+                            <div class="col-md-3 mb-4">
+                              <div class="product-card">
+                                <div class="product-badge-limited">⚡6h 36m 36s</div>
+                                <img src="https://images.mamaearth.in/catalog/product/1/_/1_white_bg_31.jpg?format=auto&width=400&height=400" alt="Product Image 2">
+                                <div class="product-title">Anti-Hair Fall Spa Kit For Fast Hair Growth & Strengthning</div>
+                                <div class="product-description">Boosts Growth | Reduces Hair Fall | Softens Hair</div>
+                                <div class="rating">
+                                  <span>⭐ 4.8</span> | 324 Reviews
+                                </div>
+                                <div class="price-section">
+                                  <span class="price">₹782</span> <span class="original-price">₹1119</span>
+                                  <span class="discount">30% off</span>
+                                </div>
+                              </div>
+                              <button class="btn-add-to-cart">ADD TO CART</button>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                          <!-- Product Card 3 -->
+                            <div class="col-md-3 mb-4">
+                              <div class="product-card">
+                                <div class="product-badge-limited">⚡6h 36m 36s</div>
+                                <img src="https://images.mamaearth.in/catalog/product/2/_/2_22.jpg?format=auto&width=400&height=400" alt="Product Image 3">
+                                <div class="product-title">Rosemary Hair Care Kit - 650ml</div>
+                                <div class="product-description">Gives up to 94% Stronger Hair* | Up to 93% Less Hair Fall* | Made Safe Certified</div>
+                                <div class="rating">
+                                  <span>⭐ 4.3</span> | 33 Reviews
+                                </div>
+                                <div class="price-section">
+                                  <span class="price">₹782</span> <span class="original-price">₹1117</span>
+                                  <span class="discount">30% off</span>
+                                </div>
+                              </div>
+                              <button class="btn-add-to-cart">ADD TO CART</button>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                          <!-- Product Card 4 -->
+                              <div class="col-md-3 mb-4">
+                                <div class="product-card">
+                                  <div class="product-badge-limited">⚡6h 36m 36s</div>
+                                  <img src="https://images.mamaearth.in/catalog/product/u/b/ubtan-combo_1_white_bg.jpg?format=auto&width=400&height=400" alt="Product Image 4">
+                                  <div class="product-title ">Ubtan Face Wash Daily Use Brightening Face Wash - 150 ml (Pack of 2)</div>
+                                  <div class="product-description">Removes Tan | Brightens Skin | For All Skin </div>
+                                  <div class="rating">
+                                    <span>⭐ 5.0</span> | 92 Reviews
+                                  </div>
+                                  <div class="price-section">
+                                    <span class="price">₹549</span> <span class="original-price">₹799</span>
+                                    <span class="discount">24% off</span>
+                                  </div>
+                                </div>
+                                  <button class="btn-add-to-cart">ADD TO CART</button>
+
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+            
+                    <!-- Carousel Slide 2 -->
+                    <div class="carousel-item active">
+                      <div class="row">
+                        <div class="col-md-3 mb-4">
+                          <!-- Product Card 1 -->
+                              <div class="col-md-3 mb-4">
+                                <div class="product-card">
+                                  <div class="product-badge-limited">⚡6h 36m 36s</div>
+                                  <img src="https://images.mamaearth.in/catalog/product/v/i/vit-c-glow-cream_1_1.jpg?format=auto&height=600" alt="Product Image 1">
+                                  <div class="product-title">Mamaearth Into the Waves Eau De Parfum For Men - 100 ml</div>
+                                  <div class="product-description">Premium | Long-Lasting Fragrance</div>
+                                  <div class="rating">
+                                    <span>⭐ 4.3</span> | 101 Reviews
+                                  </div>
+                                  <div class="price-section">
+                                    <span class="price">₹746.00</span> <span class="original-price">₹999</span>
+                                    <span class="discount">15% off</span>
+                                  </div>
+                                </div>
+                                <button class="btn-add-to-cart">ADD TO CART</button>
+
+                              </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                          <!-- Product Card 2 -->
+                            <div class="col-md-3 mb-4">
+                              <div class="product-card">
+                                <div class="product-badge-limited">⚡6h 36m 36s</div>
+                                <img src="https://images.mamaearth.in/catalog/product/a/l/aloe-vera-gel---pack-of-2_white_bg.jpg?format=auto&width=400&height=400" alt="Product Image 2">
+                                <div class="product-title">Face Wash with Vitamin C and Turmeric for Skin Illumination - 100ml</div>
+                                <div class="product-description">Brightens Skin | Evens Skin Tone| Makes Skin Glow</div>
+                                <div class="rating">
+                                  <span>⭐ 4.8</span> | 324 Reviews
+                                </div>
+                                <div class="price-section">
+                                  <span class="price">₹235.00	</span> <span class="original-price">₹269</span>
+                                  <span class="discount">13% off</span>
+                                </div>
+                              </div>
+                              <button class="btn-add-to-cart">ADD TO CART</button>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                          <!-- Product Card 3 -->
+                            <div class="col-md-3 mb-4">
+                              <div class="product-card">
+                                <div class="product-badge-limited">⚡6h 36m 36s</div>
+                                <img src="https://images.mamaearth.in/catalog/product/r/i/rice-fw_white_bg_2_1.jpg?format=auto&width=400&height=400" alt="Product Image 3">
+                                <div class="product-title">Sunscreen with Vitamin C & Turmeric for Sun Protection & Glow - 50 g</div>
+                                <div class="product-description">SPF 50 & PA++++ Protection | Adds Natural Glow </div>
+                                <div class="rating">
+                                  <span>⭐ 4.3</span> | 33 Reviews
+                                </div>
+                                <div class="price-section">
+                                  <span class="price">₹306.00	</span> <span class="original-price">₹399</span>
+                                  <span class="discount">25% off</span>
+                                </div>
+                              </div>
+                              <button class="btn-add-to-cart">ADD TO CART</button>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                          <!-- Product Card 4 -->
+                              <div class="col-md-3 mb-4">
+                                <div class="product-card">
+                                  <div class="product-badge-limited">⚡6h 36m 36s</div>
+                                  <img src="https://images.mamaearth.in/catalog/product/3/_/3_78.jpg?format=auto&height=600" alt="Product Image 4">
+                                  <div class="product-title">Glow Face Cream With Vitamin C & Turmeric for Skin Illumination - 80 g</div>
+                                  <div class="product-description">Brightens Skin | Moisturizes Skin</div>
+                                  <div class="rating">
+                                    <span>⭐ 5.0</span> | 92 Reviews
+                                  </div>
+                                  <div class="price-section">
+                                    <span class="price">₹218.00	</span> <span class="original-price">₹349</span>
+                                    <span class="discount">13% off</span>
+                                  </div>
+                                </div>
+                                  <button class="btn-add-to-cart">ADD TO CART</button>
+
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            
+                  <!-- Carousel Controls -->
+                  <button class="carousel-control-prev mr-96" type="button" data-bs-target="#productCarousel2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next ml-96" type="button" data-bs-target="#productCarousel2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+
+          <!-- product session3 -->
+          <div class="container mx-auto">
+            <div class="row">
+              <div class="col-9">
+                <h2 class="text-2xl font-semibold text-left mt-5 mb-2 ">Skin Care</h2>
+                <p class=" text-lg">Explore 100% toxin-free and safe skincare products by Mamaearth that are formulated with love and the goodness of natural ingredients</p>
+
+              </div>
+              <div class="col-3 mt-12">
+              <button class="viewall text-lg text-white ml-24">View All</button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="container mt-4">            
+            <div id="productCarousel3" class="carousel slide" >
+              <div class="carousel-inner">
+                <!-- Carousel Slide 1 -->
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 1 -->
+                          <div class="col-md-3 mb-4">
+                            <div class="product-card">
+                              <div class="product-badge-trending">trending</div>
+                              <img src="https://images.mamaearth.in/catalog/product/1/-/1-wid-ingredients.jpg?format=auto&width=400&height=400" alt="Product Image 1">
+                              <div class="product-title">Ubtan Face Wash with Turmeric & Saffron for Tan Removal – 100ml</div>
+                              <div class="product-description">Gently Cleanses Skin | Hydrates Skin</div>
+                              <div class="rating">
+                                <span>⭐ 4.3</span> | 101 Reviews
+                              </div>
+                              <div class="price-section">
+                                <span class="price"> ₹649.00	</span> <span class="original-price">₹1299</span>
+                                <span class="discount">50% off</span>
+                              </div>
+                            </div>
+                            <button class="btn-add-to-cart">ADD TO CART</button>
+
+                          </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 2 -->
+                        <div class="col-md-3 mb-4">
+                          <div class="product-card">
+                            <div class="product-badge-trending">trending</div>
+                            <img src="https://images.mamaearth.in/catalog/product/v/i/vit-c-face-wash-with-ingredient.jpg?format=auto&width=400&height=400" alt="Product Image 2">
+                            <div class="product-title">Vitamin C Face Wash with Vitamin C and Turmeric for Skin Illumination - 100ml</div>
+                            <div class="product-description">Boosts Growth | Reduces Hair Fall | Softens Hair</div>
+                            <div class="rating">
+                              <span>⭐ 4.8</span> | 324 Reviews
+                            </div>
+                            <div class="price-section">
+                              <span class="price">₹782</span> <span class="original-price">₹1119</span>
+                              <span class="discount">30% off</span>
+                            </div>
+                          </div>
+                          <button class="btn-add-to-cart">ADD TO CART</button>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 3 -->
+                        <div class="col-md-3 mb-4">
+                          <div class="product-card">
+                            <div class="product-badge">best Seller</div>
+                            <img src="https://images.mamaearth.in/catalog/product/v/i/vit_c_glow_sunscreen1_white_bg_1.jpg?format=auto&width=400&height=400" alt="Product Image 3">
+                            <div class="product-title">Sunscreen with Vitamin C & Turmeric for Sun Protection & Glow - 50 g</div>
+                            <div class="product-description">Gives up to 94% Stronger Hair* | Up to 93% Less Hair Fall* </div>
+                            <div class="rating">
+                              <span>⭐ 4.3</span> | 33 Reviews
+                            </div>
+                            <div class="price-section">
+                              <span class="price">₹782</span> <span class="original-price">₹1117</span>
+                              <span class="discount">30% off</span>
+                            </div>
+                          </div>
+                          <button class="btn-add-to-cart">ADD TO CART</button>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 4 -->
+                          <div class="col-md-3 mb-4">
+                            <div class="product-card">
+                              <div class="product-badge-trending">trending</div>
+                              <img src="https://images.mamaearth.in/catalog/product/1/_/1_25.jpg?format=auto&width=400&height=400" alt="Product Image 4">
+                              <div class="product-title ">Charcoal Face Wash for Oil Control - 100ml</div>
+                              <div class="product-description">Pollution Defense Formula | Controls Excess Oil | Brightens Skin</div>
+                              <div class="rating">
+                                <span>⭐ 5.0</span> | 92 Reviews
+                              </div>
+                              <div class="price-section">
+                                <span class="price">₹549</span> <span class="original-price">₹799</span>
+                                <span class="discount">24% off</span>
+                              </div>
+                            </div>
+                              <button class="btn-add-to-cart">ADD TO CART</button>
+
+                          </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <!-- Carousel Slide 2 -->
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 1 -->
+                          <div class="col-md-3 mb-4">
+                            <div class="product-card">
+                              <div class="product-badge-trending">trending</div>
+                              <img src="https://images.mamaearth.in/catalog/product/v/i/vitamin-c-glow-serum_1_1_1.jpg?format=auto&width=400&height=400" alt="Product Image 1">
+                              <div class="product-title">Vitamin C Daily Glow Face Serum 10 ml</div>
+                              <div class="product-description">Enriched with 50X Vitamin C* | Brightens Skin | Moisturizes Skin</div>
+                              <div class="rating">
+                                <span>⭐ 4.3</span> | 101 Reviews
+                              </div>
+                              <div class="price-section">
+                                <span class="price">₹746.00</span> <span class="original-price">₹999</span>
+                                <span class="discount">15% off</span>
+                              </div>
+                            </div>
+                            <button class="btn-add-to-cart">ADD TO CART</button>
+
+                          </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 2 -->
+                        <div class="col-md-3 mb-4">
+                          <div class="product-card">
+                            <div class="product-badge-trending">trending</div>
+                            <img src="https://images.mamaearth.in/catalog/product/a/l/aloe-vera-gel---pack-of-2_white_bg.jpg?format=auto&width=400&height=400" alt="Product Image 2">
+                            <div class="product-title">Face Wash with Vitamin C and Turmeric for Skin Illumination - 100ml</div>
+                            <div class="product-description">Brightens Skin | Evens Skin Tone| Makes Skin Glow</div>
+                            <div class="rating">
+                              <span>⭐ 4.8</span> | 324 Reviews
+                            </div>
+                            <div class="price-section">
+                              <span class="price">₹235.00	</span> <span class="original-price">₹269</span>
+                              <span class="discount">13% off</span>
+                            </div>
+                          </div>
+                          <button class="btn-add-to-cart">ADD TO CART</button>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 3 -->
+                        <div class="col-md-3 mb-4">
+                          <div class="product-card">
+                            <div class="product-badge">best Sellers</div>
+                            <img src="https://images.mamaearth.in/catalog/product/1/-/1-with-ingredient_1.jpg?format=auto&width=400&height=400" alt="Product Image 3">
+                            <div class="product-title">Rice Facial Kit With Rice Water & Niacinamide for Glass Skin - 60 g</div>
+                            <div class="product-description">Skin Protection | Adds Natural Glow</div>
+                            <div class="rating">
+                              <span>⭐ 4.3</span> | 33 Reviews
+                            </div>
+                            <div class="price-section">
+                              <span class="price">₹306.00	</span> <span class="original-price">₹399</span>
+                              <span class="discount">25% off</span>
+                            </div>
+                          </div>
+                          <button class="btn-add-to-cart">ADD TO CART</button>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 4 -->
+                          <div class="col-md-3 mb-4">
+                            <div class="product-card">
+                              <div class="product-badge-trending">trending</div>
+                              <img src="https://images.mamaearth.in/catalog/product/1/-/1-wid-ingredients.jpg?format=auto&width=400&height=400" alt="Product Image 4">
+                              <div class="product-title">Glow Face Cream With Vitamin C & Turmeric for Skin Illumination - 80 g</div>
+                              <div class="product-description">Brightens Skin | Moisturizes Skin</div>
+                              <div class="rating">
+                                <span>⭐ 5.0</span> | 92 Reviews
+                              </div>
+                              <div class="price-section">
+                                <span class="price">₹218.00	</span> <span class="original-price">₹349</span>
+                                <span class="discount">13% off</span>
+                              </div>
+                            </div>
+                              <button class="btn-add-to-cart">ADD TO CART</button>
+
+                          </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <!-- Carousel Controls -->
+              <button class="carousel-control-prev mr-96" type="button" data-bs-target="#productCarousel3" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next ml-96" type="button" data-bs-target="#productCarousel3" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- product session4 -->
+          <div class="container mx-auto">
+            <div class="row">
+              <div class="col-9">
+                <h2 class="text-2xl font-semibold text-left mt-5 mb-2 ">Hair Care</h2>
+                <p class=" text-lg">Explore 100% toxin-free and safe Hair products, formulated with the goodness of natural ingredients and no harmful chemicals.</p>
+
+              </div>
+              <div class="col-3 mt-12">
+              <button class="viewall text-lg text-white ml-24">View All</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="container mt-4">            
+            <div id="productCarousel4" class="carousel slide" >
+              <div class="carousel-inner">
+                <!-- Carousel Slide 1 -->
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 1 -->
+                          <div class="col-md-3 mb-4">
+                            <div class="product-card">
+                              <div class="product-badge-men">best rosemary oil</div>
+                              <img src="https://images.mamaearth.in/catalog/product/3/_/3_1.png?format=auto&width=400&height=400" alt="Product Image 1">
+                              <div class="product-title">Rosemary Hair Growth Oil with Rosemary & Methi Dana - 150 ml</div>
+                              <div class="product-description">Stimulates Hair Growth | Controls Hair Fall | Strength</div>
+                              <div class="rating">
+                                <span>⭐ 4.3</span> | 101 Reviews
+                              </div>
+                              <div class="price-section">
+                                <span class="price"> ₹649.00	</span> <span class="original-price">₹1299</span>
+                                <span class="discount">50% off</span>
+                              </div>
+                            </div>
+                            <button class="btn-add-to-cart">ADD TO CART</button>
+
+                          </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 2 -->
+                        <div class="col-md-3 mb-4">
+                          <div class="product-card">
+                            <div class="product-badge">best Sellers</div>
+                            <img src="https://images.mamaearth.in/catalog/product/_/o/_onion-oil-250ml__1_1_1.jpeg?format=auto&width=400&height=400" alt="Product Image 2">
+                            <div class="product-title">Onion Hair Growth Oil with Onion & Methi Dana - 100 ml</div>
+                            <div class="product-description">Boosts Growth | Reduces Hair Fall | Softens Hair</div>
+                            <div class="rating">
+                              <span>⭐ 4.8</span> | 324 Reviews
+                            </div>
+                            <div class="price-section">
+                              <span class="price">₹782</span> <span class="original-price">₹1119</span>
+                              <span class="discount">30% off</span>
+                            </div>
+                          </div>
+                          <button class="btn-add-to-cart">ADD TO CART</button>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 3 -->
+                        <div class="col-md-3 mb-4">
+                          <div class="product-card">
+                            <div class="product-badge-limited">trending</div>
+                            <img src="https://images.mamaearth.in/catalog/product/o/n/onion-shampoo-with-ingredient.jpg?format=auto&width=400&height=400" alt="Product Image 3">
+                            <div class="product-title">Onion Hair Growth Shampoo with Onion & Methi Dana - 100 ml</div>
+                            <div class="product-description">Gives up to 94% Stronger Hair* | Up to 93% Less Hair Fall* </div>
+                            <div class="rating">
+                              <span>⭐ 4.3</span> | 33 Reviews
+                            </div>
+                            <div class="price-section">
+                              <span class="price">₹282</span> <span class="original-price">₹397</span>
+                              <span class="discount">30% off</span>
+                            </div>
+                          </div>
+                          <button class="btn-add-to-cart">ADD TO CART</button>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 4 -->
+                          <div class="col-md-3 mb-4">
+                            <div class="product-card">
+                              <div class="product-badge-limited">⚡6h 36m 36s</div>
+                              <img src="https://images.mamaearth.in/catalog/product/3/_/3_78.jpg?format=auto&width=400&height=400" alt="Product Image 4">
+                              <div class="product-title ">Rosemary Hair Growth Oil with Rosemary & Methi Dana - 150 ml</div>
+                              <div class="product-description">Growth Hair Fast | Controls Excess Oil | Smooth Hair</div>
+                              <div class="rating">
+                                <span>⭐ 5.0</span> | 92 Reviews
+                              </div>
+                              <div class="price-section">
+                                <span class="price">₹549</span> <span class="original-price">₹799</span>
+                                <span class="discount">24% off</span>
+                              </div>
+                            </div>
+                              <button class="btn-add-to-cart">ADD TO CART</button>
+
+                          </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <!-- Carousel Slide 2 -->
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 1 -->
+                          <div class="col-md-3 mb-4">
+                            <div class="product-card">
+                              <div class="product-badge-men">trending | Low stock</div>
+                              <img src="https://images.mamaearth.in/catalog/product/3/_/3_75.jpg?format=auto&width=400&height=400" alt="Product Image 1">
+                              <div class="product-title">Vitamin C Daily Glow Face Serum 10 ml</div>
+                              <div class="product-description">Enriched with 50X Vitamin C* | Brightens Skin | Moisturizes Skin</div>
+                              <div class="rating">
+                                <span>⭐ 4.3</span> | 101 Reviews
+                              </div>
+                              <div class="price-section">
+                                <span class="price">₹746.00</span> <span class="original-price">₹999</span>
+                                <span class="discount">15% off</span>
+                              </div>
+                            </div>
+                            <button class="btn-add-to-cart">ADD TO CART</button>
+
+                          </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 2 -->
+                        <div class="col-md-3 mb-4">
+                          <div class="product-card">
+                            <div class="product-badge-trending">trending</div>
+                            <img src="https://images.mamaearth.in/catalog/product/w/i/with_claim.jpg?format=auto&width=400&height=400" alt="Product Image 2">
+                            <div class="product-title">Face Wash with Vitamin C and Turmeric for Skin Illumination - 100ml</div>
+                            <div class="product-description">Brightens Skin | Evens Skin Tone| Makes Skin Glow</div>
+                            <div class="rating">
+                              <span>⭐ 4.8</span> | 324 Reviews
+                            </div>
+                            <div class="price-section">
+                              <span class="price">₹235.00	</span> <span class="original-price">₹269</span>
+                              <span class="discount">13% off</span>
+                            </div>
+                          </div>
+                          <button class="btn-add-to-cart">ADD TO CART</button>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 3 -->
+                        <div class="col-md-3 mb-4">
+                          <div class="product-card">
+                            <div class="product-badge">best Sellers</div>
+                            <img src="https://images.mamaearth.in/catalog/product/l/e/lemon-anti-dandruff-shampoo_1_1_2.jpg?format=auto&width=400&height=400" alt="Product Image 3">
+                            <div class="product-title">Rice Facial Kit With Rice Water & Niacinamide for Glass Skin - 60 g</div>
+                            <div class="product-description">Skin Protection | Adds Natural Glow</div>
+                            <div class="rating">
+                              <span>⭐ 4.3</span> | 33 Reviews
+                            </div>
+                            <div class="price-section">
+                              <span class="price">₹306.00	</span> <span class="original-price">₹399</span>
+                              <span class="discount">25% off</span>
+                            </div>
+                          </div>
+                          <button class="btn-add-to-cart">ADD TO CART</button>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                      <!-- Product Card 4 -->
+                          <div class="col-md-3 mb-4">
+                            <div class="product-card">
+                              <div class="product-badge-men">new launch</div>
+                              <img src="https://images.mamaearth.in/catalog/product/1/_/1_49.jpg?format=auto&width=400&height=400" alt="Product Image 4">
+                              <div class="product-title">Glow Face Cream With Vitamin C & Turmeric for Skin Illumination - 80 g</div>
+                              <div class="product-description">Brightens Skin | Moisturizes Skin</div>
+                              <div class="rating">
+                                <span>⭐ 5.0</span> | 92 Reviews
+                              </div>
+                              <div class="price-section">
+                                <span class="price">₹218.00	</span> <span class="original-price">₹349</span>
+                                <span class="discount">13% off</span>
+                              </div>
+                            </div>
+                              <button class="btn-add-to-cart">ADD TO CART</button>
+
+                          </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+              <!-- Carousel Controls -->
+              <button class="carousel-control-prev mr-96" type="button" data-bs-target="#productCarousel4" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next ml-96" type="button" data-bs-target="#productCarousel4" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- product session5 -->
+          <div class="container mx-auto">
+            <div class="row">
+              <div class="col-9">
+                <h2 class="text-2xl font-semibold text-left mt-5 mb-2 ">Fragrances</h2>
+                <p class=" text-lg">Mamaearth Perfume range is the India’s 1st Made Safe Certified perfume and is inspired by both nature and you.</p>
+
+              </div>
+              <div class="col-3 mt-12">
+              <button class="viewall text-lg text-white ml-24">View All</button>
+              </div>
+            </div>
+          </div>
+            <div class="container mt-4">
+              <div class="row">
+                <div class="col-md-3 mb-4">
+                  <!-- Product Card 1 -->
+                      <div class="col-md-3 mb-4">
+                        <div class="product-card">
+                          <div class="product-badge-men">No. 1 MEN PERFUME</div>
+                          <img src="https://images.mamaearth.in/catalog/product/1/_/1_white_bg_53.jpg?format=auto&width=400&height=400" alt="Product Image 1">
+                          <div class="product-title">Mamaearth Into the Woods Eau De Parfum For Men - 100ml</div>
+                          <div class="product-description">Made Safe Approved | Premium & Long Lasting Fragrance</div>
+                          <div class="rating">
+                            <span>⭐ 4.3</span> | 101 Reviews
+                          </div>
+                          <div class="price-section">
+                            <span class="price"> ₹746.00	</span> <span class="original-price">₹1299</span>
+                            <span class="discount">40% off</span>
+                          </div>
+                        </div>
+                        <button class="btn-add-to-cart">ADD TO CART</button>
+
+                      </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                  <!-- Product Card 2 -->
+                    <div class="col-md-3 mb-4">
+                      <div class="product-card">
+                        <div class="product-badge">Best Seller</div>
+                        <img src="https://images.mamaearth.in/catalog/product/1/_/1_white_bg_54.jpg?format=auto&width=400&height=400" alt="Product Image 2">
+                        <div class="product-title">Mamaearth Into the Sunset Eau De Parfum For Women - 100ml</div>
+                        <div class="product-description">Made Safe Approved | Premium & Long Lasting Fragrance</div>
+                        <div class="rating">
+                          <span>⭐ 4.8</span> | 324 Reviews
+                        </div>
+                        <div class="price-section">
+                          <span class="price">₹782</span> <span class="original-price">₹1119</span>
+                          <span class="discount">30% off</span>
+                        </div>
+                      </div>
+                      <button class="btn-add-to-cart">ADD TO CART</button>
+
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                  <!-- Product Card 3 -->
+                    <div class="col-md-3 mb-4">
+                      <div class="product-card">
+                        <div class="product-badge-men">best Women perfume</div>
+                        <img src="https://images.mamaearth.in/catalog/product/1/_/1_fop_white_bg_1.jpg?format=auto&width=400&height=400" alt="Product Image 3">
+                        <div class="product-title">Mamaearth Into the Valley Eau De Parfum For Women - 100 ml</div>
+                        <div class="product-description">Made Safe Approved | Premium & Long Lasting Fragrance </div>
+                        <div class="rating">
+                          <span>⭐ 4.3</span> | 33 Reviews
+                        </div>
+                        <div class="price-section">
+                          <span class="price">₹782</span> <span class="original-price">₹1117</span>
+                          <span class="discount">30% off</span>
+                        </div>
+                      </div>
+                      <button class="btn-add-to-cart">ADD TO CART</button>
+
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                  <!-- Product Card 4 -->
+                      <div class="col-md-3 mb-4">
+                        <div class="product-card">
+                          <div class="product-badge-trending">trending</div>
+                          <img src="https://images.mamaearth.in/catalog/product/1/_/1_white_bg_51.jpg?format=auto&width=400&height=400" alt="Product Image 4">
+                          <div class="product-title ">Mamaearth Into the Vanilla Bliss Eau De Parfum For Women - 100ml</div>
+                          <div class="product-description">Made Safe Approved | Premium & Long Lasting Fragrance</div>
+                          <div class="rating">
+                            <span>⭐ 5.0</span> | 92 Reviews
+                          </div>
+                          <div class="price-section">
+                            <span class="price">₹549</span> <span class="original-price">₹799</span>
+                            <span class="discount">24% off</span>
+                          </div>
+                        </div>
+                          <button class="btn-add-to-cart">ADD TO CART</button>
+
+                      </div>
+                </div>
+              </div>          
+            </div>
+        
+
+            <!-- product session6 -->
+            <div class="container mx-auto">
+              <div class="row">
+                <div class="col-9">
+                  <h2 class="text-2xl font-semibold text-left mt-5 mb-2 ">Makeup</h2>
+                  <p class=" text-lg">Color with care with our all-new colorcare range that’s 100% toxin-free and formulated with the goodness of natural ingredients. Check out our newly launched products & bring home your new favorites.</p>
+
+                </div>
+                <div class="col-3 mt-12">
+                <button class="viewall text-lg text-white ml-24">View All</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="container mt-4">            
+              <div id="productCarousel6" class="carousel slide" >
+                <div class="carousel-inner">
+                  <!-- Carousel Slide 1 -->
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-md-3 mb-4">
+                        <!-- Product Card 1 -->
+                            <div class="col-md-3 mb-4">
+                              <div class="product-card">
+                                <div class="product-badge-men">best rosemary oil</div>
+                                <img src="https://images.mamaearth.in/catalog/product/1/_/1_1_.jpg?format=auto&width=400&height=400" alt="Product Image 1">
+                                <div class="product-title">Rosemary Hair Growth Oil with Rosemary & Methi Dana - 150 ml</div>
+                                <div class="product-description">Stimulates Hair Growth | Controls Hair Fall | Strength</div>
+                                <div class="rating">
+                                  <span>⭐ 4.3</span> | 101 Reviews
+                                </div>
+                                <div class="price-section">
+                                  <span class="price"> ₹649.00	</span> <span class="original-price">₹1299</span>
+                                  <span class="discount">50% off</span>
+                                </div>
+                              </div>
+                              <button class="btn-add-to-cart">ADD TO CART</button>
+
+                            </div>
+                      </div>
+                      <div class="col-md-3 mb-4">
+                        <!-- Product Card 2 -->
+                          <div class="col-md-3 mb-4">
+                            <div class="product-card">
+                              <div class="product-badge">best Sellers</div>
+                              <img src="https://images.mamaearth.in/catalog/product/b/e/beetroot-lipbalm_white_bg.jpg?format=auto&width=400&height=400" alt="Product Image 2">
+                              <div class="product-title">Onion Hair Growth Oil with Onion & Methi Dana - 100 ml</div>
+                              <div class="product-description">Boosts Growth | Reduces Hair Fall | Softens Hair</div>
+                              <div class="rating">
+                                <span>⭐ 4.8</span> | 324 Reviews
+                              </div>
+                              <div class="price-section">
+                                <span class="price">₹782</span> <span class="original-price">₹1119</span>
+                                <span class="discount">30% off</span>
+                              </div>
+                            </div>
+                            <button class="btn-add-to-cart">ADD TO CART</button>
+
+                          </div>
+                      </div>
+                      <div class="col-md-3 mb-4">
+                        <!-- Product Card 3 -->
+                          <div class="col-md-3 mb-4">
+                            <div class="product-card">
+                              <div class="product-badge-men">must try</div>
+                              <img src="https://images.mamaearth.in/catalog/product/c/r/cranberry_crush_swatch_copy.jpg?format=auto&width=400&height=400" alt="Product Image 3">
+                              <div class="product-title">Onion Hair Growth Shampoo with Onion & Methi Dana - 100 ml</div>
+                              <div class="product-description">Gives up to 94% Stronger Hair* | Up to 93% Less Hair Fall* </div>
+                              <div class="rating">
+                                <span>⭐ 4.3</span> | 33 Reviews
+                              </div>
+                              <div class="price-section">
+                                <span class="price">₹282</span> <span class="original-price">₹397</span>
+                                <span class="discount">30% off</span>
+                              </div>
+                            </div>
+                            <button class="btn-add-to-cart">ADD TO CART</button>
+
+                          </div>
+                      </div>
+                      <div class="col-md-3 mb-4">
+                        <!-- Product Card 4 -->
+                            <div class="col-md-3 mb-4">
+                              <div class="product-card">
+                                <div class="product-badge-limited">⚡6h 36m 36s</div>
+                                <img src="https://images.mamaearth.in/catalog/product/1/_/1_white_bg_74.jpg?format=auto&width=400&height=400" alt="Product Image 4">
+                                <div class="product-title ">Rosemary Hair Growth Oil with Rosemary & Methi Dana - 150 ml</div>
+                                <div class="product-description">Growth Hair Fast | Controls Excess Oil | Smooth Hair</div>
+                                <div class="rating">
+                                  <span>⭐ 5.0</span> | 92 Reviews
+                                </div>
+                                <div class="price-section">
+                                  <span class="price">₹549</span> <span class="original-price">₹799</span>
+                                  <span class="discount">24% off</span>
+                                </div>
+                              </div>
+                                <button class="btn-add-to-cart">ADD TO CART</button>
+
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <!-- Carousel Slide 2 -->
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-md-3 mb-4">
+                        <!-- Product Card 1 -->
+                            <div class="col-md-3 mb-4">
+                              <div class="product-card">
+                                <div class="product-badge-men">trending | Low stock</div>
+                                <img src="https://images.mamaearth.in/catalog/product/1/_/1_white_bg_26.jpg?format=auto&width=400&height=400" alt="Product Image 1">
+                                <div class="product-title">Vitamin C Daily Glow Face Serum 10 ml</div>
+                                <div class="product-description">Enriched with 50X Vitamin C* | Brightens Skin | Moisturizes Skin</div>
+                                <div class="rating">
+                                  <span>⭐ 4.3</span> | 101 Reviews
+                                </div>
+                                <div class="price-section">
+                                  <span class="price">₹746.00</span> <span class="original-price">₹999</span>
+                                  <span class="discount">15% off</span>
+                                </div>
+                              </div>
+                              <button class="btn-add-to-cart">ADD TO CART</button>
+
+                            </div>
+                      </div>
+                      <div class="col-md-3 mb-4">
+                        <!-- Product Card 2 -->
+                          <div class="col-md-3 mb-4">
+                            <div class="product-card">
+                              <div class="product-badge-trending">trending</div>
+                              <img src="https://images.mamaearth.in/catalog/product/1/_/1_54.jpg?format=auto&width=400&height=400" alt="Product Image 2">
+                              <div class="product-title">Face Wash with Vitamin C and Turmeric for Skin Illumination - 100ml</div>
+                              <div class="product-description">Brightens Skin | Evens Skin Tone| Makes Skin Glow</div>
+                              <div class="rating">
+                                <span>⭐ 4.8</span> | 324 Reviews
+                              </div>
+                              <div class="price-section">
+                                <span class="price">₹235.00	</span> <span class="original-price">₹269</span>
+                                <span class="discount">13% off</span>
+                              </div>
+                            </div>
+                            <button class="btn-add-to-cart">ADD TO CART</button>
+
+                          </div>
+                      </div>
+                      <div class="col-md-3 mb-4">
+                        <!-- Product Card 3 -->
+                          <div class="col-md-3 mb-4">
+                            <div class="product-card">
+                              <div class="product-badge">best Sellers</div>
+                              <img src="https://images.mamaearth.in/catalog/product/1/_/1_52.jpg?format=auto&width=400&height=400" alt="Product Image 3">
+                              <div class="product-title">Rice Facial Kit With Rice Water & Niacinamide for Glass Skin - 60 g</div>
+                              <div class="product-description">Skin Protection | Adds Natural Glow</div>
+                              <div class="rating">
+                                <span>⭐ 4.3</span> | 33 Reviews
+                              </div>
+                              <div class="price-section">
+                                <span class="price">₹306.00	</span> <span class="original-price">₹399</span>
+                                <span class="discount">25% off</span>
+                              </div>
+                            </div>
+                            <button class="btn-add-to-cart">ADD TO CART</button>
+
+                          </div>
+                      </div>
+                      <div class="col-md-3 mb-4">
+                        <!-- Product Card 4 -->
+                            <div class="col-md-3 mb-4">
+                              <div class="product-card">
+                                <div class="product-badge-men">new launch</div>
+                                <img src="https://images.mamaearth.in/catalog/product/1/_/1_1_.jpg?format=auto&width=400&height=400" alt="Product Image 4">
+                                <div class="product-title">Glow Face Cream With Vitamin C & Turmeric for Skin Illumination - 80 g</div>
+                                <div class="product-description">Brightens Skin | Moisturizes Skin</div>
+                                <div class="rating">
+                                  <span>⭐ 5.0</span> | 92 Reviews
+                                </div>
+                                <div class="price-section">
+                                  <span class="price">₹218.00	</span> <span class="original-price">₹349</span>
+                                  <span class="discount">13% off</span>
+                                </div>
+                              </div>
+                                <button class="btn-add-to-cart">ADD TO CART</button>
+
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev mr-96" type="button" data-bs-target="#productCarousel6" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next ml-96" type="button" data-bs-target="#productCarousel6" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- product session7 -->
+              <div class="container mx-auto">
+                <div class="row">
+                  <div class="col-9">
+                    <h2 class="text-2xl font-semibold text-left mt-5 mb-2 ">Baby Care</h2>
+                    <p class=" text-lg">Your little bundle of joy deserves nothing but the best. Explore MadeSafe Certified, natural, 100% toxin-free & gentle baby care products by Mamaearth. Give your little one the care they deserve!</p>
+
+                  </div>
+                  <div class="col-3 mt-12">
+                  <button class="viewall text-lg text-white ml-24">View All</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="container mt-4">
+                <div class="row">
+                  <div class="col-md-3 mb-4">
+                    <!-- Product Card 1 -->
+                        <div class="col-md-3 mb-4">
+                          <div class="product-card">
+                            <div class="product-badge">best Sellers</div>
+                            <img src="https://images.mamaearth.in/catalog/product/_/m/_milky_soft_face_cream_.jpg?format=auto&width=400&height=400" alt="Product Image 1">
+                            <div class="product-title">Mamaearth Into the Woods Eau De Parfum For Men - 100ml</div>
+                            <div class="product-description">Made Safe Approved | Premium & Long Lasting Fragrance</div>
+                            <div class="rating">
+                              <span>⭐ 4.3</span> | 101 Reviews
+                            </div>
+                            <div class="price-section">
+                              <span class="price"> ₹746.00	</span> <span class="original-price">₹1299</span>
+                              <span class="discount">40% off</span>
+                            </div>
+                          </div>
+                          <button class="btn-add-to-cart">ADD TO CART</button>
+  
+                        </div>
+                  </div>
+                  <div class="col-md-3 mb-4">
+                    <!-- Product Card 2 -->
+                      <div class="col-md-3 mb-4">
+                        <div class="product-card">
+                          <div class="product-badge">Best Seller</div>
+                          <img src="https://images.mamaearth.in/catalog/product/3/_/3_14.jpg?format=auto&width=400&height=400" alt="Product Image 2">
+                          <div class="product-title">Mamaearth Into the Sunset Eau De Parfum For Women - 100ml</div>
+                          <div class="product-description">Made Safe Approved | Premium & Long Lasting Fragrance</div>
+                          <div class="rating">
+                            <span>⭐ 4.8</span> | 324 Reviews
+                          </div>
+                          <div class="price-section">
+                            <span class="price">₹782</span> <span class="original-price">₹1119</span>
+                            <span class="discount">30% off</span>
+                          </div>
+                        </div>
+                        <button class="btn-add-to-cart">ADD TO CART</button>
+  
+                      </div>
+                  </div>
+                  <div class="col-md-3 mb-4">
+                    <!-- Product Card 3 -->
+                      <div class="col-md-3 mb-4">
+                        <div class="product-card">
+                          <img src="https://images.mamaearth.in/catalog/product/u/n/unnamed-3_yuripcqhaihclrv2.jpg?format=auto&width=400&height=400" alt="Product Image 3">
+                          <div class="product-title">Mamaearth Into the Valley Eau De Parfum For Women - 100 ml</div>
+                          <div class="product-description">Made Safe Approved | Premium & Long Lasting Fragrance </div>
+                          <div class="rating">
+                            <span>⭐ 4.3</span> | 33 Reviews
+                          </div>
+                          <div class="price-section">
+                            <span class="price">₹782</span> <span class="original-price">₹1117</span>
+                            <span class="discount">30% off</span>
+                          </div>
+                        </div>
+                        <button class="btn-add-to-cart">ADD TO CART</button>
+  
+                      </div>
+                  </div>
+                  <div class="col-md-3 mb-4">
+                    <!-- Product Card 4 -->
+                        <div class="col-md-3 mb-4">
+                          <div class="product-card">
+                            <div class="product-badge">best Sellers</div>
+                            <img src="https://images.mamaearth.in/catalog/product/_/m/_milky-soft-body-lotion__1.jpg?format=auto&width=400&height=400" alt="Product Image 4">
+                            <div class="product-title ">Mamaearth Into the Vanilla Bliss Eau De Parfum For Women - 100ml</div>
+                            <div class="product-description">Made Safe Approved | Premium & Long Lasting Fragrance</div>
+                            <div class="rating">
+                              <span>⭐ 5.0</span> | 92 Reviews
+                            </div>
+                            <div class="price-section">
+                              <span class="price">₹549</span> <span class="original-price">₹799</span>
+                              <span class="discount">24% off</span>
+                            </div>
+                          </div>
+                            <button class="btn-add-to-cart">ADD TO CART</button>
+  
+                        </div>
+                  </div>
+                </div>          
+              </div>
+        </div> 
+
+        <!-- video session -->
+        <div class=""></div>
+          <div class="row container ml-28 mb-6">
+            <div class="col-6">
+              <iframe class="rounded" width="495" height="400" src="https://www.youtube.com/embed/YROZybuYGUE" title="Goodness Inside: Its all in the little choices we make everyday #Mamaearth #NaturalIngredients" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-6">
+              <h2 class="text-center text-xl  font-semibold mt-16 mb-4">Our Goodness Promise</h2>
+            <p class="text-center text-sm ml-4 mb-6">
+              At Mamaearth, we live to spread a little love and goodness every day. We believe that goodness isn’t a superpower, nor a special gift, it’s inside all of us and it shows in the little choices we make. Our mission is to bring you the best of nature through our purest and most nurturing products that are made without any toxins or harmful chemicals. For us goodness also means being good to the earth. Which is why we recycle more plastic than we use and we're PETA Certified - which means we never test on animals. This is our #GoodnessInside.
+            </p>
+                <button class="shopnowbutton text-white ml-32 text-sm">SHOP NOW</button>
+                <button class="ourpledgebutton text-sm">OUR PLADGES</button>
+            </div>
+          </div>
+        <!-- plant more tree session -->
+         <img src="./we-plant.jpg" alt="">
+        <!-- Super Safe Standards -->
+         <h1 class="text-2xl font-semibold text-center mb-4 mt-4 ">Super Safe Standards</h1>
+         <div class="row ml-16 mr-16 mb-4">
+          <div class="col-4 d-flex">
+            <div>
+              <img class="mt-6" src="https://images.mamaearth.in/wysiwyg/dermatology-tested-100x100.png" width="270px" alt="">
+            </div>
+            <div>
+              <h2 class="text-lg font-semibold left mb-1 ml-4">Dermatologically Tested</h2>
+              <p class="ml-4">We ensure each product is tested clinically on the sensitive human skin to ensure that it is not allergic.</p>
+            </div>
+          </div>
+          <div class="col-4 d-flex">
+            <div>
+              <img class="mt-6" src="https://images.mamaearth.in/wysiwyg/fda-100x100.jpg" width="270px" alt="">
+            </div>
+            <div>
+              <h2 class="text-lg font-semibold left mb-1 ml-4">FDA Approved</h2>
+              <p class="ml-4">MamaEarth is FDA approved, which means we are 100% safe to be used for babies as well as mamas.</p>
+            </div>
+          </div>
+          <div class="col-4 d-flex">
+            <div>
+              <img class="mt-6" src="https://images.mamaearth.in/wysiwyg/msafe-100x100.jpg" width="270px" alt="">
+            </div>
+            <div>
+              <h2 class="text-lg font-semibold left mb-1 ml-4">Made Safe Certified</h2>
+              <p class="ml-4">The MADE SAFE (Made with Safe Ingredients™) seal means that a product is literally made with safe ingredients.</p>
+            </div>
+          </div>
+         </div>
+
+         <!-- footer1 -->
+          <div class="footer1">
+            <div class="row">
+              <div class="shipping col-3">
+                <div class="service-item ml-16 mt-12">
+                  <img class="mb-2" src="https://images.mamaearth.in/wysiwyg/mobile-truck.png" width="50px" alt="Free Shipping">
+                  <h3 class="text-xs  font-semibold ">Free Shipping</h3>
+                  <p class="text-xs text-gray-500">On Orders Above Rs. 399</p>
+                </div>
+              </div>
+              <div class="codavail col-9 d-flex">
+                <div class="service-item ">
+                  <img class="ml-24 mb-2 mt-12" style="height: 30px;" src="https://images.mamaearth.in/wysiwyg/Group_81512x.png" width="50px" alt="COD Available">
+                  <h3 class="text-xs  font-semibold mr-72  ml-24">COD Available</h3>
+                  <p class="text-xs text-gray-500 ml-24">@ Rs. 40 Per Order</p>
+                </div>
+                <div class="service-item">
+                  <h3 class="mt-12 font-semibold text-xl mb-4">Have Queries or Concerns?</h3>
+                  <button href="#" class="contactbutton font-semibold text-lg ml-6 mb-6">CONTACT US</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- footer2 -->
+          <div class="footer2">
+            <div class="payment">
+                <h1 class="text-lg mt-8 ml-16 mb-2">PAYMENT</h1>
+                <div class="d-flex ">
+                    <img class="ml-16" style="height: 20px;" src="https://images.mamaearth.in/wysiwyg/noun_trusted_27146262x_6Ekja92.png" alt="">
+                    <p class="text-sm text-green-600">&nbsp;&nbsp; 100% Payment Protection, Easy Return Policy</p>
+                </div>
+                <img class="ml-16" src="https://images.mamaearth.in/png/web-payments.png" alt="">
+                
+            </div>
+          </div>
+          <!-- footer3 -->
+           <div class="footer3">
+            <div class="row ml-6">
+              <div class="col-3 mt-12 text-gray-500">
+                <h4 class="text-xl mb-2">USEFUL LINKS</h4>
+                <ul class="usefulinks text-lg">
+                    <li class="mb-2"><a href="#">Privacy Policy</a></li>
+                    <li class="mb-2"><a href="#">Returns</a></li>
+                    <li class="mb-2"><a href="#">Terms & Conditions</a></li>
+                    <li class="mb-2"><a href="#">Terms & Conditions - Cashback</a></li>
+                    <li class="mb-2"><a href="#">We're Safe</a></li>
+                    <li class="mb-2"><a href="#">Track Order</a></li>
+                    <li class="mb-2"><a href="#">Contact Us</a></li>
+                    <li class="mb-2"><a href="#">Sitemap</a></li>
+                    <li class="mb-2"><a href="#">About Us</a></li>
+                </ul>
+              </div>
+              <div class="col-3  mt-12 text-gray-500">
+                <h4 class="text-xl mb-2">CATEGORIES</h4>
+                <ul class="usefulinks text-lg">
+                    <li class="mb-2"><a href="#">Baby</a></li>
+                    <li class="mb-2"><a href="#">Beauty</a></li>
+                    <li class="mb-2"><a href="#">Hair</a></li>
+                    <li class="mb-2"><a href="#">Face</a></li>
+                    <li class="mb-2"><a href="#">Body</a></li>
+                    <li class="mb-2"><a href="#">Makeup</a></li>
+                    <li class="mb-2"><a href="#">Ingredient</a></li>
+                    <li class="mb-2"><a href="#">Gift Pack</a></li>
+                </ul>
+              </div>
+              <div class="col-3 mt-12 text-gray-500">
+                <h4 class="text-xl mb-2">MY ACCOUNT</h4>
+                <ul class="usefulinks text-lg">
+                    <li class="mb-2"><a href="#">Account</a></li>
+                    <li class="mb-2"><a href="#">Orders</a></li>
+                    <li class="mb-2"><a href="#">Addresses</a></li>
+                </ul>
+              </div>
+              <div class="col-3 mt-12 ">
+                <img class="ml-12" src="https://images.mamaearth.in/wysiwyg/Best-Brand500x5002x.png" width="100px" alt="">
+              </div>
+            </div>
+           </div>
+           <!-- footer4 -->
+            <div class="footer4 ">
+                <div class="foot4  ml-96 mb-4">
+                  <i class="fa-brands ml-4 text-2xl text-gray-400 fa-facebook"><a href="https://www.facebook.com/Mamaearthindia/"></a></i>
+                  <i class="fa-brands ml-4 text-2xl text-gray-400 fa-twitter"><a href="https://www.facebook.com/Mamaearthindia/"></a></i>
+                  <i class="fa-brands ml-4 text-2xl text-gray-400 fa-instagram"><a href="https://www.instagram.com/mamaearth.in/?hl=en"></a></i>
+                  <i class="fa-brands ml-4 text-2xl text-gray-400 fa-youtube"><a href="https://www.youtube.com/channel/UC5qhqSIcahBKKMEdLPFqeVA"></a></i>
+                  <i class="fa-brands ml-4 text-2xl text-gray-400 fa-linkedin"><a href="https://www.linkedin.com/company/mama-earth-in/"></a></i>
+                  <i class="fa-brands ml-4 text-2xl text-gray-400 fa-pintrest"><a href="https://in.pinterest.com/mamaearthindia/"></a></i>
+                  <i class="fa-brands ml-4 text-2xl text-gray-400 fa-email"></i>
+                </div>
+                <div class="googleplay d-flex ml-80 mb-4">
+                  <a href="#"><img class="ml-8" src="https://images.mamaearth.in/wysiwyg/PLAYSTORE18Apr.png" alt=""></a>
+                  <a href="#"><img class="ml-4" src="https://images.mamaearth.in/wysiwyg/APPSTORE18Apr.png" alt=""></a>
+                </div>
+            </div>
+            <div class="footer5">
+              <p class="m-6 ml-72" >© 2024 Honasa Consumer Limited. All Rights Reserved</p>
+            </div>
+            <div class="mb-6"></div>
+            <footer class="last bg-gray-200 ">
+              <div class="ml-28 mr-28">
+
+                  <h1 class="text-3xl font-semibold mb-2 ">Get your hands on Nature-Inspired Mamaearth Products </h1>
+                  <p class="lastpara mb-2">Mamaearth is one of the most trustworthy brands in India.Avail Mamaearth natural Skin, Hair, Body, Baby and Makeup products in India. Shop for 599 or more and Get Flat 20% Off +5% Prepaid Off with Code: SAVE25. It offers the best-in-class skincare products to help you discover the essence of beauty with the Goodness of Nature. We are also Asia’s first brand to be accoladed with Made Safe Certification for our beauty products. Mamaearth products are made using safe, pure, gentle, natural, and toxin-free ingredients. We work with skincare experts to make the best natural for men and women to offer you the best skincare experience.</p>
+                  <p class="lastpara">We are a brand by the parents and for the parents because we offer safe and gentle baby skin care products through world-class research to solve every little problem of parents. To make Mama product that are especially mum-friendly, we curate our toxic free, harmful chemical-free, paraben-free products with utmost care and precision. We are your one-stop shop for beauty, skin, hair, and baby care needs. Explore Mamaearth official website and choose from an array of products for your beauty care regimen. Mamaearth online shopping store offers you complete convenience. You can view your favorite picks in one place at Mamaearth Honasa website. Our user-friendly interface will guide you through the product information to make the best buying decisions. Buy now!</p>
+              </div>
+            </footer>
+          <!-- Bootstrap JS -->
+          <script src="script.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>    
+  </body>
+</html>
